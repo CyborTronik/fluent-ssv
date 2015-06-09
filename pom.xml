@@ -7,6 +7,7 @@
     <groupId>org.fluent</groupId>
     <artifactId>ssv</artifactId>
     <version>0.1</version>
+    <packaging>jar</packaging>
 
     <properties>
         <commons-lang3.version>3.4</commons-lang3.version>
