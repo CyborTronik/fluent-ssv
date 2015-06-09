@@ -17,6 +17,7 @@
     <description>
         Fluent API to stream CSV, TSV and custom separated values files that are streamed with java beans(to POJOs)
     </description>
+    <url>https://github.com/CyborTronik/fluent-ssv</url>
 
     <licenses>
         <license>
@@ -37,9 +38,10 @@
             <email>trifanstanislav@gmail.com</email>
         </developer>
     </developers>
-    <url>https://github.com/CyborTronik/fluent-ssv</url>
     <scm>
-        <url>https://github.com/CyborTronik/fluent-ssv.git</url>
+        <connection>scm:git:git@github.com:CyborTronik/fluent-ssv.git</connection>
+        <developerConnection>scm:git:git@github.com:CyborTronik/fluent-ssv.git</developerConnection>
+        <url>git@github.com:CyborTronik/fluent-ssv.git</url>
     </scm>
 
     <dependencies>
