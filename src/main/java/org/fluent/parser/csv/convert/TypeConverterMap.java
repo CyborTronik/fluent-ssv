@@ -14,6 +14,7 @@ public class TypeConverterMap extends HashMap<Class, ValueConverter> {
 		add(new DoubleConverter());
 		add(new IntegerConverter());
 		add(new StringConverter());
+		add(new BooleanConverter());
 	}
 
 	public void add(ValueConverter valueConverter) {

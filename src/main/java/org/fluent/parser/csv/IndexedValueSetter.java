@@ -44,7 +44,7 @@ public class IndexedValueSetter {
 	private Method findMonadicMethodByName(Object item, String setterName) {
 		Class<?> itemClass = item.getClass();
 		for (Method method : itemClass.getMethods())
-			if (method.getName().equals(setterName) && method.getParameterTypes().length == 1)
+			if (method.getName().equalsIgnoreCase(setterName) && method.getParameterTypes().length == 1)
 				return method;
 		throw new CsvException(itemClass + " doesn't contain a monadic(single argument) method called " + setterName);
 	}
