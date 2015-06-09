@@ -37,6 +37,10 @@
             <email>trifanstanislav@gmail.com</email>
         </developer>
     </developers>
+    <url>https://github.com/CyborTronik/fluent-csv</url>
+    <scm>
+        <url>https://github.com/CyborTronik/fluent-csv.git</url>
+    </scm>
 
     <dependencies>
 
