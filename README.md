@@ -38,3 +38,12 @@ Leo, 18
 ...
 
 ```
+
+# ParsedRecord structure
+
+You are able to check if item was parsed with success calling isParsed() (from class ParsedRecord).
+Next to get parsed bean call getItem().
+To check what happened call getException().
+
+# Support
+To check more cases ask via github or stackoverflow (put tag fluent-ssv).
