@@ -41,7 +41,7 @@ Leo, 18
 
 # ParsedRecord structure
 
-You are able to check if item was parsed with success calling isParsed() (from class ParsedRecord).
+You are able to check if item was parsed with success by calling isParsed() (from class ParsedRecord).
 Next to get parsed bean call getItem().
 To check what happened call getException().
 
