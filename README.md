@@ -10,3 +10,31 @@ Special designed to use streams from Java 8.
   <version>0.1</version>
 </dependency>
 ```
+
+# Example of usage
+So you should remember the start point in usage is class named SsvStreamBuilder
+So simpliest example can be:
+```java
+class Person {
+    private String name;
+    private Integer age;
+
+    public get/set....
+}
+
+//Some where in usage (default parser is for csv, you can change it see at SsvStreamBuilder methods)
+Stream<ParsedRecord<Person>> streamedPersons = new SsvStreamBuilder<Person>()
+                                            .forEntity(Person.class)
+                                            .stream("~/some/file/path");
+...
+```
+In this case CSV file will look something like (header by default is matched to Person class set methods),
+methods order doesn't matter, but you are able to provide custom header and/or line parser, see SsvStreamBuilder:
+
+```
+Name, Age
+Victor, 20
+Leo, 18
+...
+
+```
