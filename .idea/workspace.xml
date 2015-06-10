@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a878ce5f-f9a0-41c1-8cd0-3a48676f794c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/DefaultIndexedProperties.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/DefaultIndexedProperties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/DefaultItemFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/DefaultItemFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/DefaultItemMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/DefaultItemMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/IndexedProperties.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/IndexedProperties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/IndexedValueSetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/IndexedValueSetter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/ItemFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/ItemFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/ItemMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/ItemMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/LineParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/LineParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/ParsedRecord.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/ParsedRecord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/SsvStreamBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/SsvStreamBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/StringSeparatedValuesLineParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/StringSeparatedValuesLineParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/convert/BooleanConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/convert/BooleanConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/convert/DefaultConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/convert/DefaultConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/convert/DoubleConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/convert/DoubleConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/convert/IntegerConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/convert/IntegerConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/convert/StringConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/convert/StringConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/convert/TypeConverterMap.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/convert/TypeConverterMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/convert/ValueConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/convert/ValueConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/exception/InvalidDefaultSsvHeaderException.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/exception/InvalidDefaultSsvHeaderException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/exception/InvalidSetPropertyIndexRequestException.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/exception/InvalidSetPropertyIndexRequestException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/exception/SsvException.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/exception/SsvException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/exception/SsvStreamBuilderException.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/exception/SsvStreamBuilderException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/fluent/parser/TestModel.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/cybortronik/parser/TestModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/fluent/parser/ssv/DefaultIndexedPropertiesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/cybortronik/parser/ssv/DefaultIndexedPropertiesTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/fluent/parser/ssv/DefaultItemFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/cybortronik/parser/ssv/DefaultItemFactoryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/fluent/parser/ssv/IndexedValueSetterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/cybortronik/parser/ssv/IndexedValueSetterTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/fluent/parser/ssv/SsvStreamBuilderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/cybortronik/parser/ssv/SsvStreamBuilderTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/fluent/parser/ssv/StringSeparatedValuesLineParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/cybortronik/parser/ssv/StringSeparatedValuesLineParserTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="fluent-csv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -87,24 +56,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.109947644">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="markdown-preview-editor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.08116883">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -224,10 +193,10 @@
         <option value="$PROJECT_DIR$/src/test/java/org/fluent/parser/csv/SsvStreamBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fluent/parser/csv/exception/SsvStreamBuilderException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fluent/parser/ssv/exception/SsvException.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/exception/SsvException.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -888,12 +857,12 @@
       <workItem from="1433542273624" duration="601000" />
       <workItem from="1433839490911" duration="562000" />
       <workItem from="1433848909812" duration="4446000" />
-      <workItem from="1433922322973" duration="282000" />
+      <workItem from="1433922322973" duration="751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28799000" />
+    <option name="totallyTimeSpent" value="29268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -1300,29 +1269,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="markdown-preview-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cybortronik/parser/ssv/exception/SsvException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1337,8 +1287,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.109947644">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="markdown-preview-editor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08116883">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>
